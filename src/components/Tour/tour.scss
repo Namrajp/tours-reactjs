@@ -1,0 +1,29 @@
+@import "../../index.scss";
+.tour {
+  background: $mainGrey;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+
+  img {
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    display: block;
+  }
+}
+.img-container {
+  position: relative;
+  .close-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 2rem;
+    color: green;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    opacity: 0;
+  }
+}
+.img-container:hover .close-btn {
+  opacity: 1;
+}
