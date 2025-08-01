@@ -5,12 +5,7 @@ const AboutPage = () => (
   <section className="container">
     <h1> This is my About Page. </h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
-      deserunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Provident, deserunt.Lorem ipsum dolor sit amet, consectetur adipisicing
-      elit. Provident, deserunt.Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit. Provident, deserunt.Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit. Provident, deserunt.
+      I am learning React js
     </p>
 
     <p>
